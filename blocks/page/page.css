@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+    url(/Inter/InterWeb/Inter-Regular.woff);
+}
+.page {
+    background: #2A2C2F;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    min-width: 1100px;
+    max-width: 1600px;
+}

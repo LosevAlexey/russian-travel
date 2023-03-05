@@ -1,0 +1,24 @@
+.places__block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 75%;
+    row-gap: 48px;
+    column-gap: 40px;
+    margin: 92px auto 0 auto;
+    max-width: 70%;
+}
+
+@media all and (max-width: 1024px) {
+  .places__block {
+    max-width: 90%;
+}
+}
+
+@media all and (max-width: 320px) {
+  .places__block {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+}

@@ -1,0 +1,13 @@
+.header__link {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 18px;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__link::after {
+    text-decoration: underline;
+}

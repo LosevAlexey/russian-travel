@@ -1,0 +1,22 @@
+.lead {
+    max-width: 70%;
+    margin: 56px auto 0 auto;
+    position: relative;
+    min-height: 1005px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media all and (max-width: 1024px) {
+  .lead {
+    max-width: 90%;
+}
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    max-width: 100%;
+}
+}
