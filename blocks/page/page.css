@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Inter';
     src: local('Inter'),
-    url(/Inter/InterWeb/Inter-Regular.woff);
+    url(/Inter/InterWeb/inter.css);
 }
 .page {
     background: #2A2C2F;
