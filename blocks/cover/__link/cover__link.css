@@ -1,4 +1,16 @@
-.cover__link:hover {
+.cover__link {
+  text-decoration: none;
+  color: #ffffff;
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cover__link:hover::before {
     opacity: 0.3;
-    transition: opasity;
+    background-color: #000000;
 }
