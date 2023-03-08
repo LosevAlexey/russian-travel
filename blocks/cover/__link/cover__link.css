@@ -9,7 +9,6 @@
   align-items: center;
 }
 
-
 .cover__link:hover::before {
     opacity: 0.3;
     background-color: #000000;
