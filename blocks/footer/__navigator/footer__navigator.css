@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 18px;
+    flex-wrap: wrap;
 }
 
 @media all and (max-width: 320px) {

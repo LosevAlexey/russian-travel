@@ -1,23 +1,27 @@
 .places__title {
     font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
+    font-size: 4.5em;
+    line-height: 105%;
     margin: 0px;
     max-width: 100%;
     place-self: flex-end;
     justify-self: start;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
   .places__title {
-    justify-self: start;
-    place-self: self-start;
-    margin-bottom: 32px;
+    font-size: 3.5em;
+    line-height: 105%;
+    place-self: auto;
 }
 }
 
 @media all and (max-width: 320px) {
   .places__title {
     margin-left: 5%;
+    justify-self: start;
+    place-self: self-start;
+    margin-bottom: 32px;
+    font-size: 3.5em;
 }
 }

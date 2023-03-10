@@ -30,5 +30,6 @@
     max-width: 90%;
     gap: 12px;
     margin: 64px auto 0px auto;
+    justify-content: center;
 }
 }

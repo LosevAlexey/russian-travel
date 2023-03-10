@@ -2,8 +2,19 @@
     position: absolute;
     z-index: 1;
     left: 2%;
-    bottom: 260px;
+    bottom: 26%;
     width: 96%;
-    height: 225px;
-    object-fit: cover;
+    height: 22%;
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    bottom: 23%;
+}
+}
+
+@media all and (max-width: 320px) {
+  .lead {
+    bottom: 21%;
+}
 }
