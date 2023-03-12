@@ -11,7 +11,7 @@
 
 .header__link:hover {
   opacity: 0.8;
-  transition: opasity 0.5ss;
+  transition: opasity 0.5s;
 }
 
 @media all and (max-width: 320px) {

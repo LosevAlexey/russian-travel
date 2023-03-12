@@ -6,7 +6,6 @@
   margin: 1vh 0 0 0;
   text-align: left;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
 }
 
 @media all and (max-width: 768px) {
