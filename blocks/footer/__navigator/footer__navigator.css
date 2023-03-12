@@ -1,16 +1,14 @@
 .footer__navigator {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 18px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
 }
 
 @media all and (max-width: 320px) {
   .footer__navigator {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 32px;
-}
+  }
 }

@@ -1,10 +1,8 @@
 .places__url-website {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    margin: 0;
-    left: 0;
-    bottom: 34px;
-    position: absolute;
-    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

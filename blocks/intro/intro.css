@@ -1,13 +1,25 @@
 .intro {
-    margin: 92px auto 0px auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
+  margin: 92px auto 0px auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 78%;
 }
 
 @media all and (max-width: 1024px) {
   .intro {
     max-width: 90%;
-}
+  }
 }
 
+@media all and (max-width: 768px) {
+  .intro {
+    max-width: 97%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro {
+    max-width: 90%;
+    margin: 63px auto 0px auto;
+  }
+}

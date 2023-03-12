@@ -3,3 +3,15 @@
   width: 100%;
   max-height: 615px;
 }
+
+@media all and (max-width: 768px) {
+  .lead__main-illustration {
+    margin: 9% 0 0 0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__main-illustration {
+    margin: 14% 0 0 0;
+  }
+}
