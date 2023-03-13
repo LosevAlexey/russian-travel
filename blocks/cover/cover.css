@@ -20,6 +20,7 @@
 @media all and (max-width: 768px) {
   .cover {
     min-height: 480px;
+    margin: 90px auto 0px auto;
   }
 }
 

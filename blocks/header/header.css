@@ -3,14 +3,28 @@
   justify-content: space-between;
   margin: 28px auto 0 auto;
   padding: 0;
-  align-items: flex-end;
-  max-width: 96%;
+  align-items: center;
+  max-width: 93%;
+}
+
+@media all and (max-width: 1024px) {
+  .header {
+    height: 52px;
+    max-width: 92%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    height: 52px;
+    max-width: 95%;
+  }
 }
 
 @media all and (max-width: 320px) {
   .header {
-    margin: 32px auto 0 auto;
-    max-height: 28px;
-    max-width: 93%;
+    margin: 16px auto 0 auto;
+    height: 42px;
+    max-width: 90%;
   }
 }

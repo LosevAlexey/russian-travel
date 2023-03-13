@@ -10,12 +10,33 @@
 
 @media all and (max-width: 768px) {
   .cover__title {
-    font-size: 4em;
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .cover__title {
+    font-size: 60px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .cover__title {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .cover__title {
+    font-size: 45px;
   }
 }
 
 @media all and (max-width: 320px) {
   .cover__title {
     font-size: 2em;
+    max-width: 288px;
+    line-height: 35px;
   }
 }

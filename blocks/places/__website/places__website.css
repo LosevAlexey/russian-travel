@@ -5,13 +5,7 @@
   justify-self: start;
 }
 
-@media all and (max-width: 768px) {
-  .places__website {
-    margin: 0 0 0 10px;
-  }
-}
-
-@media all and (max-width: 767px) {
+@media all and (max-width: 630px) {
   .places__website {
     place-self: start;
   }

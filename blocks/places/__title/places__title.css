@@ -1,7 +1,7 @@
 .places__title {
   font-weight: 900;
-  font-size: 4.5em;
-  line-height: 105%;
+  font-size: 72px;
+  line-height: 76px;
   margin: 0px;
   max-width: 100%;
   place-self: flex-end;
@@ -10,7 +10,8 @@
 
 @media all and (max-width: 768px) {
   .places__title {
-    font-size: 2.8em;
+    font-size: 42px;
+    line-height: 46px;
     place-self: auto;
   }
 }
@@ -20,6 +21,7 @@
     margin-left: 5%;
     place-self: self-start;
     margin-bottom: 32px;
-    font-size: 1.99em;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

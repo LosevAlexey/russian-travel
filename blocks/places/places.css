@@ -1,29 +1,31 @@
 .places {
   display: flex;
   flex-direction: column;
-  max-width: 77%;
+  max-width: 78%;
   margin: 92px auto 0 auto;
   justify-content: space-between;
-  gap: 85px;
+  gap: 80px;
 }
 
 @media all and (max-width: 1024px) {
   .places {
-    max-width: 90%;
-    max-width: 95%;
+    max-width: 92%;
+    gap: 80px;
   }
 }
 
 @media all and (max-width: 768px) {
   .places {
-    margin: 92px auto 0 auto;
-    gap: 70px;
+    gap: 73px;
+    margin: 88px auto 0 auto;
+    max-width: 95%;
   }
 }
 
 @media all and (max-width: 320px) {
   .places {
     max-width: 100%;
-    margin: 62px auto 0 auto;
+    margin: 64px auto 0 auto;
+    gap: 50px;
   }
 }
