@@ -10,7 +10,6 @@
 @media all and (max-width: 1024px) {
   .places {
     max-width: 92%;
-    gap: 80px;
   }
 }
 
